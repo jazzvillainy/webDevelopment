@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-container{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding-block: 45px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    /* width: 150px; */
+    padding-inline: 20px;
+    
+    /* transform: translateX(100);
+    transform: translateX(0); */
+    /* transition: transform; */
+
+
+}
+
+.btn:hover{
+    background-color: red;
+    transform: scale(0);
+    transition: 0.2s
+    ease-in  ease-out;
+    /* transform: translate3d(); */   
+}
+
+.btn:active{
+    /* transform: scale(0.5); */
+    /* background-color: red;
+    transform: translate3d(45deg);
+    position: absolute;
+    transition: 0.1s
+    ease-in-out */
+    
+    
+    
+
+}

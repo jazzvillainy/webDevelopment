@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.box{
+    color: white;
+    height: 20%; 
+    width: 20%;
+    text-align: center;
+    /* width: 20%; */
+    /* position: relative; */
+
+}
+.indigo{
+    height: 100vh;
+    background-color: black;
+    width: 100vh;
+    /* display: flex; */
+    
+
+    
+}
+.red{
+    background-color: red;
+    top: 0px;
+    width: 50%; 
+    height: 100%;
+    /*this wont work unless the container box with is given */
+}
+.orange{
+    background-color: orange;
+    /* left: 0px;
+    bottom: -60%; */
+    width: 25%;
+    height: 100%;
+    
+    
+    
+}
+.yellow{ 
+    background-color: yellow;
+    /* left: 80%;
+    bottom:-40%; */
+    width: 25%;
+    height: 100%;
+    
+    
+
+    
+}
+.green{
+    background-color: green;
+    /* left: 80%;
+    top: -60%; */
+    width: 100%;
+    
+
+    
+}
+.blue{
+    background-color: blue;
+    /* left: 40%;
+    top: -40%; */
+    /* position: absolute; */
+    height: 400%;
+    width: 50%;
+    
+
+}
+.twin{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+.topniggas{
+    display: flex;
+    width: 100%;
+    height: 20%;
+}

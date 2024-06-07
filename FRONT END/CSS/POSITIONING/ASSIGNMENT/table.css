@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.olivePart{
+
+}
+
+#whitePart{
+    color: rgb(54, 54, 5);
+    background-color: rgb(253, 253, 253);
+    width: 400px;
+    height: 950px;
+    position: absolute;
+    left: 500px;
+    top: 125px;
+    border-radius: 10px;
+    
+    
+}
+
+.photo{
+    height: 100px;
+    width: 370px;
+    border-radius: 5px;
+}
+
+#whitePart>div{
+    margin: 15px;
+    
+}
+
+#whitePart>div>li{
+    font-size: x-small;
+    padding: 5px;
+
+}
+
+
+
+#whitePart>div>ol>li{
+    font-size: x-small;
+    padding: 5px;
+    margin-left: 10px; 10px
+    margin-top: 5px;
+
+}
+
+.b{
+    padding-bottom: 70px;
+    box-sizing: border-box;
+        position: absolute;
+    left: 215px;
+    color:  rgb(126, 88, 39);
+    
+
+}
+
+.f{
+    margin-bottom: 20px;
+    
+}
+
+/* .middleLine{
+    opacity: 40%;
+} */

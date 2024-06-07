@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: monospace;
+
+}
+
+
+.box-1{
+    background: red;
+    position: relative;
+
+}
+
+.box-2{
+    background: blue;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.box-3{
+    background: pink;
+    position: absolute;
+    bottom: 0;
+    
+
+}
+
+.box-4{
+    background-color: yellow;
+    position: absolute;
+    bottom:0;
+    right: 0;
+   
+}
+
+.box-5{
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    left: 600px;
+    top: 225px; 
+}
+
+.box-6{background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+
+
+}*/
+
+.dimension{
+    height: 100vh;
+}
+.section0{
+    width: 150px;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    background-color: black;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-size: 100px;
+
+
+}
+.section-1{
+    background:orangered;
+
+      
+}
+.box{
+    height: 150px;
+    width: 150px;
+    position: fixed/*absolute makes items float within the viewport*/
+    ;
+    background-color: brown;
+    color: black;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    
+}
+.box > p {
+    text-align: center ;
+
+}
+
+
+.section-2{
+    background: powderblue;
+}
